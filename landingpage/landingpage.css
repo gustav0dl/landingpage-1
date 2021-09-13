@@ -5,13 +5,11 @@ body
 
 header
 {
-    
+    padding: 20px;
     
 }
 
-
-.introducao
-{
+.introducao {
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -42,9 +40,10 @@ main {
     text-align: left;
     width: 43%;
     left: 50%;
-    bottom: 200px;
-    
-    
+    bottom: 225px;
+    padding-left: 25px;
+    animation-duration: 3s;
+   
 
 }
 
@@ -96,17 +95,35 @@ form input {
 
 .enviar:hover {
     background: rgb(112, 45, 121);
-    transform: scale(1.1);
+    transform: scale(1.02);
 
 
 }
 
-.img-formulario
-{
-
+.img-formulario {
     position: absolute;
-	left: 50%;
-	top: 60% 
     max-height: 400px; 
     min-height: auto;
+	left: 50%;
+    top: 60% 
+}
+
+.topicos-principais > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    padding: 25px;
+}
+
+.porque-investir {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1em;
+
+}
+
+.porque-participar {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1em;
 }
